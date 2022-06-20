@@ -1,0 +1,65 @@
+body{
+    
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,0,0,1));
+}
+
+
+
+.calculator{
+    margin-top: 200px;
+    margin-left: 500px;
+	border:10px solid black;
+	width: 280px;
+	box-sizing: border-box;
+	font-family: verdana;
+    border-radius: 20px;
+    background-color: whitesmoke;
+	color: black;
+
+
+}
+.calculator .form-control{
+	height: 60px;
+}
+.calculator .form-group{
+	margin-bottom: 0;
+}
+.calculator input[type=text]{
+	font-size: 1.5rem;
+	color:black;
+    padding-right: 110px;
+
+}
+.calculator .btn {
+	font-size: 1.5rem;
+	color:#333;
+	width: 85px;
+}
+.calculator .btn-op {
+    color: black;
+	background-color: rgb(1, 255, 69);
+}   
+
+
+.calculator .btn-opeq {
+    color: black;
+	background-color: rgb(0, 166, 255);
+}   
+
+
+.calculator .btnops{
+    font-size: 1.5rem;
+	color:black;
+	width: 82px;
+    background-color: rgb(235, 144, 144);
+}
+
+.calculator .btnce{
+
+    font-size: 1.5rem;
+	color:black;
+    background-color: aqua;
+    font-display: center;
+}
+
+

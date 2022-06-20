@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cal</title>
+        <!-- REF: https://www.codehim.com/html5-css3/javascript-scientific-calculator/-->
+
+
+    </head>
+    <body>
+
+        <link rel="stylesheet" href="cal.css">  
+
+        
+<table class="calculator table">
+    <thead>			
+        <tr>
+            <td colspan="7">
+                <div class="output form-group">
+                    <input type="text" class="ans form-control" readonly name="">
+                </div>				
+            </td>
+        </tr>
+    </thead>
+    <tbody class="actions">		
+        <tr>
+            
+            <td>
+                <button class="btn btn-op" data-value="radic">√</button>				
+            </td>
+            <td>
+                <button class="btn btn-op" data-value="*(">(</button>				
+    
+            </td>
+            <td>
+                <button class="btn btn-op" data-value=")">)</button>				
+    
+            </td>
+
+            <td >
+                <button  class="btn btnce" data-value="ce">CE</button>				
+    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value="sin">sin</button>			
+            </td>
+            <td>
+                <button class="btn" data-value="7">7</button>
+            </td>
+            <td>
+                <button class="btn" data-value="8">8</button>				
+            </td>
+            <td>
+                <button class="btn" data-value="9">9</button>				
+            </td>
+            <td>
+                <button class="btnops" data-value="/">÷</button>				
+    
+            </td>
+        </tr>			
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value="cos">cos</button>			
+            </td>
+            <td>
+                <button class="btn" data-value="4">4</button>
+            </td>
+            <td>
+                <button class="btn" data-value="5">5</button>				
+            </td>
+            <td>
+                <button class="btn" data-value="6">6</button>				
+            </td>
+            <td>
+                <button class="btnops" data-value="*">	×</button>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value="tan">tan</button>			
+            </td>
+           
+            <td>
+                <button class="btn" data-value="3">3</button>
+            </td>
+            <td>
+                <button class="btn" data-value="2">2</button>				
+            </td>
+            <td>
+                <button class="btn" data-value="1">1</button>				
+            </td>
+            <td>
+                <button class="btnops" data-value="-">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-op" data-value="**">power</button>		
+            </td>
+            <td>
+                <button class="btn btn-op" data-value=".">.</button>
+            </td>
+            <td>
+                <button class="btn" data-value="0">0</button>				
+            </td>
+            <td>
+                <button class="btn btn-opeq"  data-value="=">=</button>				
+            </td>
+            <td>
+                <button class="btnops" data-value="+">+</button>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+
+
+
+    <script    src="caljs.js"> 
+</script>
+
+
+</body>
+    
+</html>
